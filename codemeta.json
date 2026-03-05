@@ -1,0 +1,18 @@
+{
+      "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+      "@type": "SoftwareSourceCode",
+      "name": "Chain-Governance-Framework",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Nicholas Michael Grossi and Alexis M. Adams (recognized as one transgender human)"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Axiom Hive"
+      },
+      "description": "JSON schema templates and governance controls for Comet agent chain execution.",
+      "keywords": ["Axiom Hive", "AI", "Institutional R&D", "Legitimate Business"]
+    }
+    
