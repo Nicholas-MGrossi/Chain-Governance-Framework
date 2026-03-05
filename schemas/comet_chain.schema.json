@@ -1,0 +1,23 @@
+{
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Comet Agent Chain Execution",
+      "type": "object",
+      "properties": {
+        "chain_id": { "type": "string" },
+        "risk_classification": { "enum": ["LOW", "MODERATE", "HIGH", "CRITICAL"] },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "node_id": { "type": "string" },
+              "agent_identifier": { "type": "string" },
+              "action_payload": { "type": "object" },
+              "requires_human_onst": { "type": "boolean" }
+            },
+            "required": ["node_id", "agent_identifier", "action_payload", "requires_human_onst"]
+          }
+        }
+      },
+      "required": ["chain_id", "risk_classification", "nodes"]
+    }
