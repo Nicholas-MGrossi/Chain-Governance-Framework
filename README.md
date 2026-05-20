@@ -1,4 +1,5 @@
 # Chain-Governance-Framework
+Authored By: Nicholas Michael Grossi
     
     JSON schema templates and governance controls for Comet agent chain execution. Risk-based classification, security gates, audit requirements, deterministic workflow architecture. Human ONST command only.
     
